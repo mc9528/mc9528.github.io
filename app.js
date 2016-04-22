@@ -26,7 +26,7 @@ for(var i = 0; i<data.length; i++) {
 var num = 0;
 var start = 755248;
 var second = 420;
-var t = setInterval(addTr,1)
+var t = setInterval(addTr,1000)
 
 function addTr(){
 	$("#time").text(second);
