@@ -3,11 +3,31 @@
 <head>
 	<meta charset="UTF-8">
 	<title>发布</title>
+	<style>
+		td:first-child{
+			padding-right: 30px;
+		}
+		td:last-child{
+			color: red;
+		}
+		td:nth-child(2){
+			font-weight: bold;
+		}
+		div {
+			width:300px;
+			margin:100px auto;
+		}
+	</style>
 </head>
 <body>
 	<div>
-		距离结束还有<span id="time"></span>
-		hellow world
+		距下期开奖还有 : <span id="time"></span> 秒
+		<table>
+			<tbody>
+			</tbody>
+		</table>
 	</div>
+	<script src="jquery.min.js"></script>
+	<script src="app.js"></script>
 </body>
 </html>
